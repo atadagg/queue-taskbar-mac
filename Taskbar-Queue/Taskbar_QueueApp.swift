@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Taskbar_QueueApp: App {
+    @StateObject private var taskManager = TaskManager()
+    
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra("Task Queue", systemImage: "list.bullet") {
             ContentView()
+                .environmentObject(taskManager)
         }
+        .menuBarExtraStyle(.window)
     }
 }
