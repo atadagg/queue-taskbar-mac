@@ -16,7 +16,7 @@ A simple, elegant menu bar task queue application for macOS. Keep track of your 
 
 ## Installation
 
-1. Download the latest release from the [Releases](https://github.com/atadagg/taskbar-queue/releases) page
+1. Download the latest release from the [Releases](https://github.com/atadagg/queue-taskbar-mac/releases) page
 2. Open the downloaded `.dmg` file
 3. Drag Taskbar Queue to your Applications folder
 4. Launch Taskbar Queue from your Applications folder
@@ -40,7 +40,7 @@ A simple, elegant menu bar task queue application for macOS. Keep track of your 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/atadagg/taskbar-queue.git
+   git clone https://github.com/atadagg/queue-taskbar-mac.git
    ```
 2. Open `Taskbar-Queue.xcodeproj` in Xcode
 3. Build and run the project
